@@ -1,0 +1,22 @@
+@import url('cabecalho.css');
+@import url('pricipal.css');
+@import url('contato.css');
+@import url('rodape.css');
+
+:root{
+    --Verde:#5CA720;
+    --Preto: #161616;
+    --Cinza-linhas-divisórias: #A5A1A1;
+    --Cinza-background-footer: #F9F9F9;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+
+}

@@ -1,0 +1,80 @@
+.banner__imagem{
+    width: 100%;
+    height: 17vh;
+    object-fit: cover;
+} 
+
+.promocao{
+    display: flex;
+    justify-content:space-between;
+    padding: 1em 1.2em;
+    border-bottom: 1px solid  #A5A1A1;
+}
+
+.titulo__promocao{
+    font-size: 16px;
+}
+
+.item__imagem{
+    width: 126.44px;
+    height: 126.44px;
+}
+
+.produto{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 1em;
+}
+
+.produto__texto{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.produto__dinheiro{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.dinheiro{
+    color: #5CA720;
+}
+
+@media screen and (min-width: 768px){
+    .banner__imagem{
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .banner__imagem{
+        height: 60vh;
+    }
+
+    .titulo__promocao{
+        font-size: 20px;
+    }
+
+    .produto__item{
+        margin-right: 10em;
+    }
+
+    .promocao__texto{
+        font-size: 18px;
+    }
+
+    .item__imagem{
+        width: 303px;
+        height: 303px
+    }
+
+
+    .produto__texto{
+        font-size: 20px;
+    }
+
+    .produto__dinheiro{
+        font-size: 23px;
+    }
+}
